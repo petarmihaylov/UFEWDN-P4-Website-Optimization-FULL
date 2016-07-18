@@ -6,10 +6,9 @@ npm install --global npm@latest
 echo "Install node-gyp"
 npm install -g node-gyp
 
-echo "Install Yeoman toolbelt dependencies"
-npm install --global yo
+echo "Install Bower and Gulp"
 npm install --global bower
-npm install --global grunt-cli
+npm install --global gulp
 
 echo "Confirming installation"
-yo --version && bower --version && grunt --version
+bower --version && gulp --version
