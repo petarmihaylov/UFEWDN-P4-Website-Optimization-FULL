@@ -1,0 +1,8 @@
+.vagrant
+*.box
+project/node_modules
+project/dist/
+project/.tmp
+project/app.yaml
+provision-stderr.log
+provision-stdout.log
