@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
 
   # Standard minimal Ubuntu box
-  config.vm.box = "ubuntu/trusty32"
+  config.vm.box = "ubuntu/trusty64"
 
   # Controls the memory and cpus of a box
   config.vm.provider :virtualbox do |vb|
