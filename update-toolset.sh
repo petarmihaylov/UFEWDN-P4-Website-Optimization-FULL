@@ -3,6 +3,9 @@
 echo "Updating npm..."
 npm install --global npm@latest
 
+echo "Install node-gyp"
+npm install -g node-gyp
+
 echo "Install Yeoman toolbelt dependencies"
 npm install --global yo
 npm install --global bower
